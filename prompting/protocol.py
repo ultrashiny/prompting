@@ -60,7 +60,7 @@ class StreamPromptingSynapse(bt.StreamingSynapse):
     roles: List[str] = pydantic.Field(
         ...,
         title="Roles",
-        description="A list of roles in the PromptingSynapse scenario. Immuatable.",
+        description="A list of roles in the PromptingSynapse scenario. Immutable.",
         allow_mutation=False,
     )
 
